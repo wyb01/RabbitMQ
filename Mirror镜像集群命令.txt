@@ -1,0 +1,39 @@
+#修改hostname
+vim /etc/hostname   
+m1
+m2
+#修改hosts集群设备
+vim /etc/hosts
+192.168.132.137 m1
+192.168.132.139 m2
+
+#开放防火墙 4369/5672/15672/25672端口
+firewall-cmd --zone=public --add-port=4369/tcp --permanent
+firewall-cmd --zone=public --add-port=5672/tcp --permanent
+firewall-cmd --zone=public --add-port=15672/tcp --permanent
+firewall-cmd --zone=public --add-port=25672/tcp --permanent
+#重载防火墙
+firewall-cmd --reload
+
+#重启服务器
+reboot
+
+#同步.erlang.coolie
+find / -name *.cookie
+scp /var/lib/rabbitmq/.erlang.cookie 192.168.132.134:/var/lib/rabbitmq/
+
+#两个电脑启动MQ服务
+rabbit-server
+
+
+# 停止应用 通过rabbitmqctl status 可以查看当前rabbitmactl默认操作的节点信息 
+rabbitmqctl stop_app  
+
+# 将当前节点加入到一个集群中 默认磁盘节点被加入的节点只要是集群中的一员，其他节点都能够马上感受到集群节点的变化  
+rabbitmqctl join_cluster rabbit@m1 
+
+# 重新启动当前节点  
+rabbitmqctl start_app 
+
+#查看集群信息  
+rabbitmqctl cluster_status

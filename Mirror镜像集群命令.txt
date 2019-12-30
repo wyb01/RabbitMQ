@@ -1,39 +1,39 @@
-#ĞŞ¸Ähostname
-vim /etc/hostname   
+#ä¿®æ”¹hostname
+vim /etc/hostname
 m1
 m2
-#ĞŞ¸Ähosts¼¯ÈºÉè±¸
+#ä¿®æ”¹hostsé›†ç¾¤è®¾å¤‡
 vim /etc/hosts
 192.168.132.137 m1
 192.168.132.139 m2
 
-#¿ª·Å·À»ğÇ½ 4369/5672/15672/25672¶Ë¿Ú
+#å¼€æ”¾é˜²ç«å¢™ 4369/5672/15672/25672ç«¯å£
 firewall-cmd --zone=public --add-port=4369/tcp --permanent
 firewall-cmd --zone=public --add-port=5672/tcp --permanent
 firewall-cmd --zone=public --add-port=15672/tcp --permanent
 firewall-cmd --zone=public --add-port=25672/tcp --permanent
-#ÖØÔØ·À»ğÇ½
+#é‡è½½é˜²ç«å¢™
 firewall-cmd --reload
 
-#ÖØÆô·şÎñÆ÷
+#é‡å¯æœåŠ¡å™¨
 reboot
 
-#Í¬²½.erlang.coolie
+#åŒæ­¥.erlang.coolie
 find / -name *.cookie
 scp /var/lib/rabbitmq/.erlang.cookie 192.168.132.134:/var/lib/rabbitmq/
 
-#Á½¸öµçÄÔÆô¶¯MQ·şÎñ
+#ä¸¤ä¸ªç”µè„‘å¯åŠ¨MQæœåŠ¡
 rabbit-server
 
 
-# Í£Ö¹Ó¦ÓÃ Í¨¹ırabbitmqctl status ¿ÉÒÔ²é¿´µ±Ç°rabbitmactlÄ¬ÈÏ²Ù×÷µÄ½ÚµãĞÅÏ¢ 
-rabbitmqctl stop_app  
+# åœæ­¢åº”ç”¨ é€šè¿‡rabbitmqctl status å¯ä»¥æŸ¥çœ‹å½“å‰rabbitmactlé»˜è®¤æ“ä½œçš„èŠ‚ç‚¹ä¿¡æ¯
+rabbitmqctl stop_app
 
-# ½«µ±Ç°½Úµã¼ÓÈëµ½Ò»¸ö¼¯ÈºÖĞ Ä¬ÈÏ´ÅÅÌ½Úµã±»¼ÓÈëµÄ½ÚµãÖ»ÒªÊÇ¼¯ÈºÖĞµÄÒ»Ô±£¬ÆäËû½Úµã¶¼ÄÜ¹»ÂíÉÏ¸ĞÊÜµ½¼¯Èº½ÚµãµÄ±ä»¯  
-rabbitmqctl join_cluster rabbit@m1 
+# å°†å½“å‰èŠ‚ç‚¹åŠ å…¥åˆ°ä¸€ä¸ªé›†ç¾¤ä¸­ é»˜è®¤ç£ç›˜èŠ‚ç‚¹è¢«åŠ å…¥çš„èŠ‚ç‚¹åªè¦æ˜¯é›†ç¾¤ä¸­çš„ä¸€å‘˜ï¼Œå…¶ä»–èŠ‚ç‚¹éƒ½èƒ½å¤Ÿé©¬ä¸Šæ„Ÿå—åˆ°é›†ç¾¤èŠ‚ç‚¹çš„å˜åŒ–
+rabbitmqctl join_cluster rabbit@m1
 
-# ÖØĞÂÆô¶¯µ±Ç°½Úµã  
-rabbitmqctl start_app 
+# é‡æ–°å¯åŠ¨å½“å‰èŠ‚ç‚¹
+rabbitmqctl start_app
 
-#²é¿´¼¯ÈºĞÅÏ¢  
+#æŸ¥çœ‹é›†ç¾¤ä¿¡æ¯
 rabbitmqctl cluster_status

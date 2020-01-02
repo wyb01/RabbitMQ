@@ -10,7 +10,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.concurrent.TimeoutException;
 
-/*@@请加Q群：369531466,与几百名工程师共同学习,遇到难题可随时@老齐,多一点真诚，少一点套路@@*/public class WeatherBureau {
+public class WeatherBureau {
     public static void main(String[] args) throws IOException, TimeoutException {
         Map area = new LinkedHashMap<String, String>();
         area.put("china.hebei.shijiazhuang.20991011", "中国河北石家庄20991011天气数据");

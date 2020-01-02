@@ -7,7 +7,7 @@ import com.rabbitmq.client.*;
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
-/*@@请加Q群：369531466,与几百名工程师共同学习,遇到难题可随时@老齐,多一点真诚，少一点套路@@*/public class Consumer {
+public class Consumer {
     public static void main(String[] args) throws IOException, TimeoutException {
         Connection conn= RabbitUtils.getConnection();
         //创建通道

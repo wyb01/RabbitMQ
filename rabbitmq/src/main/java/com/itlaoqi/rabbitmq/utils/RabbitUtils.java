@@ -4,14 +4,13 @@ import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 
 /**
-* @Description: 工具类
+* @Description: 获取rabbitmq连接的工具类
 * @Author: wyb
 * @Date: 2020-01-02 11:35:53
 */
 public class RabbitUtils {
-    //ConnectionFactory用于创建MQ的物理连接
-    private static ConnectionFactory connectionFactory = new ConnectionFactory();
-    static {
+    private static ConnectionFactory connectionFactory = new ConnectionFactory();  //ConnectionFactory用于创建MQ的物理连接
+    static {   //放入静态块，随着类加载进行执行；保证全局有且只有一块
         connectionFactory.setHost("120.79.178.18");
         connectionFactory.setPort(5672);                //5672是RabbitMQ的默认端口号
         connectionFactory.setUsername("wyb");

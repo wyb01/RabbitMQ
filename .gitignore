@@ -33,4 +33,5 @@
 *.iml
 /.idea/
 /target/
+idea/ workspace.xml
 

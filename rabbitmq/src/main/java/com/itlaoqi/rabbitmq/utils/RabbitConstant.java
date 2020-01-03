@@ -7,10 +7,10 @@ package com.itlaoqi.rabbitmq.utils;
 */
 public class RabbitConstant {
     public static final String QUEUE_HELLOWORLD = "helloworld";   //队列
-    public static final String QUEUE_SMS = "sms";                 //workqueue短信队列名称
-    public static final String EXCHANGE_WEATHER = "weather";
+    public static final String QUEUE_SMS = "sms";                 //"workqueue"短信队列名称
+    public static final String EXCHANGE_WEATHER = "weather";      //"发布/订阅"模式 - 交换机
     public static final String EXCHANGE_WEATHER_ROUTING = "weather_routing";
-    public static final String QUEUE_BAIDU = "baidu";
-    public static final String QUEUE_SINA = "sina";
+    public static final String QUEUE_BAIDU = "baidu";    //队列名称
+    public static final String QUEUE_SINA = "sina";      //队列名称
     public static final String EXCHANGE_WEATHER_TOPIC = "weather_topic";
 }

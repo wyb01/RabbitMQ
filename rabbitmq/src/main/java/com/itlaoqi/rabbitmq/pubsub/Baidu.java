@@ -6,6 +6,11 @@ import com.rabbitmq.client.*;
 
 import java.io.IOException;
 
+/**
+ * @Description:
+ * @Author: wyb
+ * @Date: 2020-01-02 18:46:05
+ */
 public class Baidu {
     public static void main(String[] args) throws IOException {
         Connection connection = RabbitUtils.getConnection();

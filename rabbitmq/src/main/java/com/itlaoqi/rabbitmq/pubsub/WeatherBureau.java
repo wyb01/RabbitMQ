@@ -22,8 +22,8 @@ public class WeatherBureau {
         String input = new Scanner(System.in).next();
         Channel channel = connection.createChannel();
         // 参数1 ：交换机
-        // 作为信息提供者，不需要和队列进行交互，只需指定交换机即可
-        // 信息发布到交换机
+            // 作为信息提供者，不需要和队列进行交互，只需指定"交换机"即可
+            // 信息发布到"交换机"
         channel.basicPublish(RabbitConstant.EXCHANGE_WEATHER,"" , null , input.getBytes());
         channel.close();
         connection.close();

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="449084ff-4897-40bd-95c2-cb9dc23231b1" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_2.xml" beforeDir="false" />
@@ -27,6 +28,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_0_1_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/pubsub/Baidu.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/pubsub/Baidu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/pubsub/WeatherBureau.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/pubsub/WeatherBureau.java" afterDir="false" />
+>>>>>>> b58ddb7cd7d38c6582ccb6df6b2e387e6d8ecf59
     </list>
     <ignored path="$PROJECT_DIR$/springboot-consumer/target/" />
     <ignored path="$PROJECT_DIR$/rabbitmq/target/" />
@@ -62,8 +67,13 @@
       <file leaf-file-name="WeatherBureau.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/pubsub/WeatherBureau.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="108">
               <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+=======
+            <state relative-caret-position="206">
+              <caret line="19" column="81" lean-forward="true" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
+>>>>>>> b58ddb7cd7d38c6582ccb6df6b2e387e6d8ecf59
             </state>
           </provider>
         </entry>
@@ -71,6 +81,7 @@
       <file leaf-file-name="Baidu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/pubsub/Baidu.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="297">
               <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
             </state>
@@ -82,6 +93,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
               <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+=======
+            <state relative-caret-position="263">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="25" />
+>>>>>>> b58ddb7cd7d38c6582ccb6df6b2e387e6d8ecf59
             </state>
           </provider>
         </entry>
@@ -113,9 +128,6 @@
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/mirror/Producer.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/mirror/RabbitUtils.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/mirror/Consumer.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/pubsub/Sina.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/pubsub/Baidu.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/pubsub/WeatherBureau.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/routing/Baidu.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/routing/Sina.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/routing/WeatherBureau.java" />
@@ -128,10 +140,13 @@
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/utils/RabbitUtils.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/workqueue/OrderSystem.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/workqueue/SMS.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/utils/RabbitConstant.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/workqueue/SMSSender1.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/workqueue/SMSSender2.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/workqueue/SMSSender3.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/workqueue/SMSSender1.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/pubsub/Sina.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/utils/RabbitConstant.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/pubsub/WeatherBureau.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/pubsub/Baidu.java" />
       </list>
     </option>
   </component>
@@ -215,6 +230,10 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="pubsub" type="462c0819:PsiDirectoryNode" />
+>>>>>>> b58ddb7cd7d38c6582ccb6df6b2e387e6d8ecf59
             </path>
             <path>
               <item name="RabbitMQ" type="b2602c69:ProjectViewProjectNode" />
@@ -223,7 +242,59 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="pubsub" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabbitMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="RabbitMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.google.code.gson:gson:2.8.5" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="RabbitMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.google.code.gson:gson:2.8.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="gson-2.8.5.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabbitMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.google.code.gson:gson:2.8.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="gson-2.8.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="gson" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabbitMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.rabbitmq:amqp-client:5.3.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="RabbitMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.rabbitmq:amqp-client:5.3.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="amqp-client-5.3.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabbitMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.rabbitmq:amqp-client:5.3.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="amqp-client-5.3.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabbitMQ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.rabbitmq:amqp-client:5.3.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="amqp-client-5.3.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+>>>>>>> b58ddb7cd7d38c6582ccb6df6b2e387e6d8ecf59
             </path>
           </expand>
           <select />
@@ -240,7 +311,11 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.1507799" />
     <property name="project.structure.side.proportion" value="0.20360824" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+=======
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+>>>>>>> b58ddb7cd7d38c6582ccb6df6b2e387e6d8ecf59
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -254,42 +329,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OrderSystem">
+  <component name="RunManager" selected="Application.WeatherBureau">
+    <configuration name="Baidu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itlaoqi.rabbitmq.pubsub.Baidu" />
+      <module name="rabbitmq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itlaoqi.rabbitmq.pubsub.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="OrderSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.itlaoqi.rabbitmq.workqueue.OrderSystem" />
-      <module name="rabbitmq" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itlaoqi.rabbitmq.workqueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itlaoqi.rabbitmq.helloworld.Producer" />
-      <module name="rabbitmq" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itlaoqi.rabbitmq.helloworld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SMSSender1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itlaoqi.rabbitmq.workqueue.SMSSender1" />
-      <module name="rabbitmq" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itlaoqi.rabbitmq.workqueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SMSSender2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itlaoqi.rabbitmq.workqueue.SMSSender2" />
       <module name="rabbitmq" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -306,6 +359,28 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.itlaoqi.rabbitmq.workqueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Sina" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itlaoqi.rabbitmq.pubsub.Sina" />
+      <module name="rabbitmq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itlaoqi.rabbitmq.pubsub.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="WeatherBureau" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itlaoqi.rabbitmq.pubsub.WeatherBureau" />
+      <module name="rabbitmq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itlaoqi.rabbitmq.pubsub.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,19 +432,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.SpringbootApplication" />
-      <item itemvalue="Application.Producer" />
       <item itemvalue="Application.OrderSystem" />
-      <item itemvalue="Application.SMSSender1" />
-      <item itemvalue="Application.SMSSender2" />
       <item itemvalue="Application.SMSSender3" />
+      <item itemvalue="Application.Sina" />
+      <item itemvalue="Application.Baidu" />
+      <item itemvalue="Application.WeatherBureau" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeatherBureau" />
+        <item itemvalue="Application.Baidu" />
+        <item itemvalue="Application.Sina" />
         <item itemvalue="Application.OrderSystem" />
         <item itemvalue="Application.SMSSender3" />
-        <item itemvalue="Application.SMSSender2" />
-        <item itemvalue="Application.SMSSender1" />
-        <item itemvalue="Application.Producer" />
       </list>
     </recent_temporary>
   </component>
@@ -385,16 +460,29 @@
       <updated>1577696258613</updated>
       <workItem from="1577696260039" duration="2497000" />
       <workItem from="1577930209938" duration="5531000" />
+<<<<<<< HEAD
       <workItem from="1577953771265" duration="3298000" />
       <workItem from="1577975720188" duration="460000" />
+=======
+      <workItem from="1577953771265" duration="5074000" />
+      <workItem from="1578014793806" duration="1326000" />
+>>>>>>> b58ddb7cd7d38c6582ccb6df6b2e387e6d8ecf59
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="11786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="14428000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+>>>>>>> b58ddb7cd7d38c6582ccb6df6b2e387e6d8ecf59
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -406,10 +494,18 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2169697" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.37939394" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21007371" />
+=======
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.16606061" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1881259" />
+>>>>>>> b58ddb7cd7d38c6582ccb6df6b2e387e6d8ecf59
       <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
@@ -438,6 +534,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/workqueue/OrderSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -463,6 +560,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+=======
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/pubsub/WeatherBureau.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/utils/RabbitConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+>>>>>>> b58ddb7cd7d38c6582ccb6df6b2e387e6d8ecf59
         </state>
       </provider>
     </entry>
@@ -648,6 +758,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/utils/RabbitConstant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -676,18 +787,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+=======
+    <entry file="jar://$USER_HOME$/ruanjian/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/Gson.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="378" column="18" selection-start-line="378" selection-start-column="18" selection-end-line="378" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/workqueue/SMSSender2.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/workqueue/SMSSender3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+>>>>>>> b58ddb7cd7d38c6582ccb6df6b2e387e6d8ecf59
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/workqueue/SMSSender2.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="290">
           <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+=======
+        <state relative-caret-position="78">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+>>>>>>> b58ddb7cd7d38c6582ccb6df6b2e387e6d8ecf59
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/helloworld/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="234">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
@@ -704,13 +841,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+=======
+        <state relative-caret-position="130">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/utils/RabbitConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/pubsub/WeatherBureau.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="19" column="81" lean-forward="true" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/pubsub/Sina.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/ruanjian/repository/com/rabbitmq/amqp-client/5.3.0/amqp-client-5.3.0.jar!/com/rabbitmq/client/Envelope.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/ruanjian/repository/com/rabbitmq/amqp-client/5.3.0/amqp-client-5.3.0.jar!/com/rabbitmq/client/Channel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="135" column="9" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
+>>>>>>> b58ddb7cd7d38c6582ccb6df6b2e387e6d8ecf59
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/itlaoqi/rabbitmq/pubsub/Baidu.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="297">
           <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+=======
+        <state relative-caret-position="263">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="25" />
+>>>>>>> b58ddb7cd7d38c6582ccb6df6b2e387e6d8ecf59
         </state>
       </provider>
     </entry>

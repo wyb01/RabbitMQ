@@ -34,4 +34,5 @@
 /.idea/
 /target/
 idea/ workspace.xml
+*.class
 

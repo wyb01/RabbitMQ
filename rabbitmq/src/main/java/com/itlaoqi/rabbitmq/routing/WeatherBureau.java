@@ -40,7 +40,7 @@ public class WeatherBureau {
         Iterator<Map.Entry<String, String>> itr = area.entrySet().iterator();
         while (itr.hasNext()) {
             Map.Entry<String, String> me = itr.next();
-            //Routing key 第二个参数相当于数据筛选的条件
+            //Routing key 第二个参git  rm -r --cached .idea数相当于数据筛选的条件
             channel.basicPublish(RabbitConstant.EXCHANGE_WEATHER_ROUTING , me.getKey() , null , me.getValue().getBytes());
         }
 

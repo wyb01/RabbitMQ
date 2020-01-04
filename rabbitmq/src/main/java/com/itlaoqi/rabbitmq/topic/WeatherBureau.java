@@ -11,6 +11,17 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.concurrent.TimeoutException;
 
+/**
+ * description:
+ * 主题Topic模式是在Routing模式基础上，提供了对RouteKey模糊匹配的功能，可以简化程序的编写。
+ * 主题模式下，模糊匹配表达式规则为：
+ *   * 匹配单个关键字
+ *   # 匹配所有关键字
+ *   主题模式下交换机的类型被称为topic
+ * @param∂
+ * @author: wyb
+ * @createTime: 2020-01-04 14:13:15
+ */
 public class WeatherBureau {
     public static void main(String[] args) throws IOException, TimeoutException {
         Map area = new LinkedHashMap<String, String>();

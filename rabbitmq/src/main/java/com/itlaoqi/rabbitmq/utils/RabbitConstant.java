@@ -12,5 +12,5 @@ public class RabbitConstant {
     public static final String EXCHANGE_WEATHER_ROUTING = "weather_routing";  //"路由"模式 交换机
     public static final String QUEUE_BAIDU = "baidu";    //队列名称
     public static final String QUEUE_SINA = "sina";      //队列名称
-    public static final String EXCHANGE_WEATHER_TOPIC = "weather_topic";
+    public static final String EXCHANGE_WEATHER_TOPIC = "weather_topic";  //topic交换机
 }

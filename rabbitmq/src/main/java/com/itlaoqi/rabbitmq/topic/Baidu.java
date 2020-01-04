@@ -12,7 +12,9 @@ public class Baidu {
         final Channel channel = connection.createChannel();
         channel.queueDeclare(RabbitConstant.QUEUE_BAIDU, false, false, false, null);
         //queueBind用于将队列与交换机绑定
-        //参数1：队列名 参数2：交互机名  参数三：路由key
+            // 参数1：队列名
+            // 参数2：交互机名
+            // 参数三：路由key
         channel.queueBind(RabbitConstant.QUEUE_BAIDU, RabbitConstant.EXCHANGE_WEATHER_TOPIC, "*.*.*.20991011");
         //channel.queueUnbind(RabbitConstant.QUEUE_BAIDU, RabbitConstant.EXCHANGE_WEATHER_TOPIC, "*.*.*.20991011");
         //*.hebei.*.*

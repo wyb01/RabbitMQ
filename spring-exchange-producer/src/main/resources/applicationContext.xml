@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><!--@@请加Q群：369531466,与几百名工程师共同学习,遇到难题可随时@老齐,多一点真诚，少一点套路@@-->
+<?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rabbit="http://www.springframework.org/schema/rabbit"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/rabbit http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
     <!-- 设置连接工厂，配置基本参数 -->
-    <rabbit:connection-factory id="connectionFactory" host="127.0.0.1" port="5672" username="guest" password="guest"
+    <rabbit:connection-factory id="connectionFactory" host="120.79.178.18" port="5672" username="wyb" password="123456"
                                virtual-host="/test"></rabbit:connection-factory>
 
     <!--
-           fanout-exchange | direct-exchange | topic-exchange
+          三种交换机类型：
+          <1> fanout-exchange | <2> direct-exchange | <3> topic-exchange
           声明一个名为topicExchange的topic交换机，如果这个交换机不存在，则自动创建
      -->
     <rabbit:topic-exchange name="topicExchange" auto-declare="true">

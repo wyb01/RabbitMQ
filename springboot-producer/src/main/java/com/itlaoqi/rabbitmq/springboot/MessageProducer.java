@@ -8,10 +8,17 @@ import org.springframework.stereotype.Component;
 import javax.annotation.Resource;
 import java.util.Date;
 
+/**
+ * description: 消息生产者
+ * @author: wyb
+ * @createTime: 2020-01-05 23:01:42
+ */
 @Component
-/*@@请加Q群：369531466,与几百名工程师共同学习,遇到难题可随时@老齐,多一点真诚，少一点套路@@*/public class MessageProducer {
+public class MessageProducer {
+
     @Resource
-    private RabbitTemplate rabbitTemplate ;
+    private RabbitTemplate rabbitTemplate ;   //Spring封装的模板
+
     RabbitTemplate.ConfirmCallback confirmCallback = new RabbitTemplate.ConfirmCallback() {
         @Override
         /**
@@ -36,11 +43,19 @@ import java.util.Date;
         }
     };
 
+    /**
+     * description: 发送消息
+     * @param emp: 自定义的消息对象
+     * @return: void
+     * @author: wyb
+     * @createTime: 2020-01-05 23:02:55
+     */
     public void sendMsg(Employee emp){
         //CorrelationData对象的作用是作为消息的附加信息传递，通常我们用它来保存消息的自定义id
         CorrelationData cd = new CorrelationData(emp.getEmpno() + "-" + new Date().getTime());
         rabbitTemplate.setConfirmCallback(confirmCallback);
         rabbitTemplate.setReturnCallback(returnCallback);
+        //对象转换成"字节数组"并发送给MQ
         rabbitTemplate.convertAndSend("springboot-exchange" , "hr.employee" , emp , cd);
     }
 

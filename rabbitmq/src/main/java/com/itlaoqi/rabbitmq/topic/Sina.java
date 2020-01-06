@@ -12,7 +12,7 @@ public class Sina {
         final Channel channel = connection.createChannel();
         channel.queueDeclare(RabbitConstant.QUEUE_SINA, false, false, false, null);
 
-        channel.queueBind(RabbitConstant.QUEUE_SINA, RabbitConstant.EXCHANGE_WEATHER_TOPIC, "us.#");
+        channel.queueBind(RabbitConstant.QUEUE_SINA, RabbitConstant.EXCHANGE_WEATHER_TOPIC, "us.#"); //前缀是us开头的全部匹配
 
         channel.basicQos(1);
         channel.basicConsume(RabbitConstant.QUEUE_SINA , false , new DefaultConsumer(channel){

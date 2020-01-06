@@ -4,7 +4,20 @@ import com.itlaoqi.rabbit.exchange.News;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-/*@@请加Q群：369531466,与几百名工程师共同学习,遇到难题可随时@老齐,多一点真诚，少一点套路@@*/public class NewsConsumer {
+/**
+ * description: 消息消费者
+ * @author: wyb
+ * @createTime: 2020-01-05 15:17:31
+ */
+public class NewsConsumer {
+
+    /**
+     * description: 接收
+     * @param news:
+     * @return: void
+     * @author: wyb
+     * @createTime: 2020-01-05 15:17:53
+     */
     public void recv(News news){
         System.out.println("接收到最新新闻：" + news.getTitle() + ":" + news.getSource());
     }
@@ -12,7 +25,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
     public static void main(String[] args) {
         //初始化IOC容器
         ApplicationContext ctx = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
-
 
     }
 }

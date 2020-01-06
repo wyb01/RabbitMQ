@@ -3,8 +3,14 @@ package com.itlaoqi.rabbit.exchange;
 import java.io.Serializable;
 import java.util.Date;
 
-/*@@请加Q群：369531466,与几百名工程师共同学习,遇到难题可随时@老齐,多一点真诚，少一点套路@@*/public class News implements Serializable{
-    private String source;
+/**
+ * description: 新闻
+ * @author: wyb
+ * @createTime: 2020-01-05 13:29:24
+ */
+public class News implements Serializable{
+
+    private String source;   //新闻来源
     private String title;
     private Date createTime;
     private String content;

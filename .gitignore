@@ -33,6 +33,5 @@
 *.iml
 /.idea/
 /target/
-.idea/workspace.xml
-idea/ workspace.xml
 *.class
+/.idea/workspace.xml

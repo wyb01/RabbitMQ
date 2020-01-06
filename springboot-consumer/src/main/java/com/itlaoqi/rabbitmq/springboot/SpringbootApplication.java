@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * description: SpringBoot与RabbitMQ整合
+ * description: SpringBoot消费者端与RabbitMQ整合
  * @author: wyb
  * @createTime: 2020-01-05 22:49:01
  */

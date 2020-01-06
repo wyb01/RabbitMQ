@@ -10,8 +10,13 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 import java.util.Map;
 
+/**
+ * @Description: 接收消息
+ * @Author: wyb
+ * @Date: 2020-01-06 14:35:01
+ */
 @Component
-/*@@请加Q群：369531466,与几百名工程师共同学习,遇到难题可随时@老齐,多一点真诚，少一点套路@@*/public class MessageConsumer {
+public class MessageConsumer {
     //@RabbitListener注解用于声明式定义消息接受的队列与exhcange绑定的信息
     //在SpringBoot中，消费者这端使用注解获取消息
     @RabbitListener(
@@ -21,10 +26,18 @@ import java.util.Map;
                     key = "#"
             )
     )
-    //用于接收消息的方法
+
+     /**
+     * @Description: 用于接收消息的方法 - 这个方法运行后将处于等待的状态，有新的消息进来就会自动触发下面的方法处理消息
+     *      @Payload 代表运行时将消息"反序列化"后注入到后面的参数中
+     * @param employee:
+     * @param channel:
+     * @param headers:
+     * @Return: void
+     * @Author: wyb
+     * @Date: 2020-01-06 14:32:57
+     */
     @RabbitHandler //通知SpringBoot下面的方法用于接收消息。
-    // 这个方法运行后将处于等待的状态，有新的消息进来就会自动触发下面的方法处理消息
-    //@Payload 代表运行时将消息反序列化后注入到后面的参数中
     public void handleMessage(@Payload Employee employee , Channel channel ,
                               @Headers Map<String,Object> headers) {
         System.out.println("=========================================");

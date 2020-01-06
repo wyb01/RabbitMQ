@@ -30,6 +30,7 @@ public class MessageConsumer {
      */
     //@RabbitListener注解用于声明式定义消息接收的"队列"与"exhcange"绑定的信息
     //在SpringBoot中，消费者这端使用"注解"获取消息
+    //消费者端可以自动创建交换机和队列
     @RabbitListener(
             bindings = @QueueBinding(
                     value = @Queue(value="springboot-queue" , durable="true"),
@@ -44,7 +45,9 @@ public class MessageConsumer {
 
         Long tag = (Long)headers.get(AmqpHeaders.DELIVERY_TAG);
         try {
-            channel.basicAck(tag , false);  //所有消息处理后必须进行消息的ack，channel.basicAck()
+            //参数1：tag
+            //参数2：是否批量接收
+            channel.basicAck(tag , false);  //所有消息处理后必须进行消息的ack(确认签收)，channel.basicAck()
         } catch (IOException e) {
             e.printStackTrace();
         }
